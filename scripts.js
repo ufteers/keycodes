@@ -313,7 +313,7 @@ document.addEventListener('touchstart', e => {
   }, 100);
 });
 
-body.onkeydown = function(e) {
+body.onkeyup = function(e) {
   if (!e.metaKey) {
     e.preventDefault();
   }
